@@ -26,7 +26,7 @@ spring:
 
 sfg:
     aiapp:
-        vectorStorePath: /tmp/vectorstore.json
+        vectorStorePath: /tmp/vectorstore3.json
         documentsToLoad:
             - classpath:/towvehicles.txt
               # Sportsman 212 - Weight 3,458 lbs
