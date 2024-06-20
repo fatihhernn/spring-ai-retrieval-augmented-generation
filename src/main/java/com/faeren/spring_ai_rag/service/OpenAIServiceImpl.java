@@ -42,7 +42,7 @@ public class OpenAIServiceImpl implements OpenAIService {
         Prompt prompt = promptTemplate.create(Map.of("input",question.question(),"documents",
                 String.join("/n",contentList)));
 
-        contentList.forEach(System.out::println);
+        //contentList.forEach(System.out::println);
 
         ChatResponse response = chatClient.call(prompt);
 
